@@ -1,0 +1,17 @@
+{
+  "name": "gbajsserver",
+  "version": "1.0.0",
+  "description": "GBA.js ====== **Version 1.1-git — Copyright © 2012 – 2013 Jeffrey Pfau**",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1"
+  }
+}

@@ -1,0 +1,27 @@
+<html>
+<!-- <link rel="stylesheet" type="text/css" href="03stylesheet.css"> -->
+<body style="background-image: url('https://fast-garden-06413.herokuapp.com/imagesHosted/person-playing-with-handheld-game-console-2708981.jpg');
+background-repeat: no-repeat;
+background-position: center;
+background-color: black;
+background-size: auto 100%;">
+<div margin-left: 30px; align="center" >
+<h1 style="color:whitesmoke;">Hello!</h1>
+<p style="color:whitesmoke;">Welcome to my project. <br>I'm currently running an all 
+    javascript Gameboy Advanced Emulator on heroku.<br> 
+    To use the emulator, please download this <a href="Pokemon-Fire-Red-Version.gba">rom</a>.<br>
+     It is completely safe. I checked it and have been using it for a while.<br>
+    Unfortunately, due to copy right law I cannot auto start the emulator with the rom.(I know weird)<br>
+    On the next page you will need to click the select button and find the rom you downloaded.<br><br><br><br>
+    Finally, the sound might or might not work. It is just how it is.<br>
+</p>
+<p> <%= name %> </p>
+<h3 style="color:whitesmoke;">What is your name?</h3>
+<form id = "contact-form" method="POST" action="/index">
+    <!-- <label for="who"> What is your name? </label><br> -->
+    <input type="text" name = "who"  value = "<%= name %>">  
+    <input type="submit" value="submit" />
+</form>
+</div>
+</body>
+</html>

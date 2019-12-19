@@ -1,0 +1,71 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #2196F3;
+    padding: 10px;
+}
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+img {
+    max-width: 300px;
+    max-height: 300px;
+}
+
+div.a {
+    text-align: center;
+}
+
+div.b{
+    align: center;
+    text-align: center;
+    background-image: url("https://fast-garden-06413.herokuapp.com/imagesHosted/i3ej3emhaoy26.jpg");
+     width: 800px;
+     margin: auto;
+}
+
+p {
+    font-size: 150%;
+}
+
+H2{
+
+    font-size: 200%;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("https://fast-garden-06413.herokuapp.com/imagesHosted/handwritten_italian_marketing_menu.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #4C4648; 
+}
+
+.bg2 {
+  /* The image used */
+  background-image: url("https://fast-garden-06413.herokuapp.com/imagesHosted/pistachio-1.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: repeat;
+  background-size: auto;
+  background-color: #4C4648; 
+}
