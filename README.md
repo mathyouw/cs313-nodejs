@@ -1,1 +1,1 @@
-This will be the read me file for my project.
+My final project is in GBAJS-master. However github is being weird and won't let anyone view it. 
